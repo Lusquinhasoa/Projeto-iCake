@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+/* Satisfy Pacifico 'Berkshire Swash' Redressed */
+:root{
+    --cor01: #70350A;
+    --cor02: #F29C5E;
+    --cor03: #F07216;
+    --cor04: #70482C;
+    --cor05: #BD5911;
+    --cor06: #bd5206;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, ul, li, p{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+header{
+    background-color: var(--cor03);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    font-family: 'Pacifico', cursive;
+    font-size: 2.2em;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    margin-left: 10px;
+}
+
+ul li a{
+    display: block;
+    padding: 10px;
+    
+}
+
+section{
+    margin: auto;
+    position: relative;
+    height: 850px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.swiper{
+    width: 1300px;
+}
+
+.card{
+    position: relative;
+    border-radius: 20px;
+    margin: 20px 0;
+    
+}
+
+section .card .image{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px;
+}
+
+section .card .image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    transition: all 0.4s;
+    opacity: 80%;
+
+}
+
+section .card .image img:hover{
+    transform: scale(1.07);
+    opacity: 100%;
+}
+
+.swiper-pagination{
+    position: absolute;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    opacity: 0.7;
+    color: red;
+    transition: all 0.3s ease;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover{
+    transform: scale(1.07);
+    opacity: 1;
+    color: white;
+}
+
+
+.catg{
+    font-size: 1.5em;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    color: var(--cor03);
+    margin-top: 20px;
+    border: 3px solid var(--cor03);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.catg1{
+    font-size: 1.2em;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    color: var(--cor03);
+    margin-top: 20px;
+    border: 3px solid var(--cor03);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.catg:hover{
+    color: var(--cor06);
+    border: 3px solid var(--cor05);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.catg1:hover{
+    color: var(--cor06);
+    border: 3px solid var(--cor05);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+

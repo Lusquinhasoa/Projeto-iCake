@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Gaegu');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root{
+    --cor01: #70350A;
+    --cor02: #F29C5E;
+    --cor03: #F07216;
+    --cor04: #70482C;
+    --cor05: #BD5911;
+    --cor06: #bd5206;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h2{
+    font-family: Pacifico;
+    font-size: 2em;
+    color: var(--cor03);
+}
+    
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black; 
+}
+h2{
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+body, ul, li, p{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    margin-left: 10px;
+}
+
+ul li a{
+    display: block;
+    padding: 10px;
+}
+
+header{
+    background-color: var(--cor03);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo{
+    font-family: 'Pacifico', cursive;
+    font-size: 2.2em;
+}
+
+body{
+    background-color: white;
+}
+
+img{
+    width: 70%;
+    border-radius: 10%;
+    box-shadow: 10px 5px 5px rgb(148, 144, 144);
+}
+button{
+    outline-style: none;
+    width: 40%;
+    height: 30px;
+    font-weight: bold;
+    background-color: white;
+    border:  2px solid var(--cor03);
+    font-family: Arial, Helvetica, sans-serif; 
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+button:hover{
+    border: 2px solid var(--cor05);
+    background-color: var(--cor03);
+    color: white;
+}
+
+#descricao{
+    font-size: small;
+    color: rgba(185, 185, 185, 0.774);
+    padding-bottom: 6%;
+}
+#produtos1{
+    display: flex;
+    padding-left: 15%;
+    padding-top: 5%;
+    padding-right: 10%;
+}
+
+
+
+#produtos2{
+    display: flex;
+    padding-left: 15%;
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+#preco{
+    padding-bottom: 2%;
+}
+

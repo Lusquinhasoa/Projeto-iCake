@@ -1,0 +1,190 @@
+body{
+    background-color: white;
+}
+.formulario{
+    
+    width: 500px;
+    padding: 30px;
+    border:1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    /*teste formulario descendo (obs: deu certo, ver se vai modificar ou tirar)*/
+    animation: iniciar 1.6s ease-out;
+    pointer-events: all;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+.field{
+    width: 100%;
+    margin: 15px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.field label, 
+.field span{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.radiobox label{
+    width: auto;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+
+    /*MUDANCAS*/
+    background: none;
+    color: black;
+    letter-spacing: 0.5px;
+    /*TESTE*/
+    border: none;
+    border-bottom: 1px solid #ccc; 
+    transform: none;
+    transform: left bottom;   
+}
+#mensagem{
+    border: none;
+    border-radius: 15px;
+    outline:1px solid #ccc;
+    transform: none;
+    transform: left bottom;   
+}
+#mensagem:focus{
+    transform: scale(1);
+    outline: 1px solid #F07216;
+}
+input:focus, input:not(placeholder-show){
+    transform: scale(1);
+    border-bottom: 1px solid #F07216;
+}
+
+
+
+input#nao{
+    margin-left: auto
+}
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+    
+}
+
+        @import url('https://fonts.googleapis.com/css?family=Gaegu');
+        button {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+            border: 2px solid #F07216;
+            border-radius: 15px;
+            
+            border-radius: 0px;
+            height: 50px; /* altura do botao*/
+            width: 100%;
+           /* margin-left: 25%;*/
+           
+            background-image: linear-gradient(to right , #F29C5E,#e26913);
+            border: none;
+            padding: 15px;
+            color: white;
+            font-size: 15px;
+            cursor:pointer;
+            border-radius: 15px;
+
+        }
+
+        button:hover {
+            background-image: linear-gradient(to right,#F29C5E , #c25d14 );;
+            border: 2px solid #70350A;
+            transition: all 0.5s ease-in;
+            transition-delay: 0.05s;
+           /* margin-left: auto;
+            margin-right: auto;*/
+        }
+
+        button:hover:after {
+            font-family: "FontAwesome";
+            font-style: normal;
+            font-variant-caps: normal;
+            font-variant-ligatures: normal;
+            text-rendering: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    /*teste formulario descendo (obs: deu certo, ver se vai modificar ou tirar)*/
+        @keyframes iniciar{
+            0%{
+               margin-top: -20%;
+               opacity: 0;
+               pointer-events:none; 
+            }
+            100%{
+                top: 50%;
+                opacity: 100%;
+                pointer-events: all;
+            }
+        }
+    
+/*CARDS DO "SOBRE"*/
+
+.principal{
+    margin: 50px auto 50px auto;
+    width: 1000px;
+}
+
+.principal > .sec{
+    margin: 20px auto 20px auto;
+    width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.principal > .sec > ul{
+    display: block;
+}
+
